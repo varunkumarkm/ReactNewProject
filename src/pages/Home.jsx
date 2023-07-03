@@ -90,7 +90,7 @@ const Home = () => {
                                     <td>
                                       <button onClick={()=>handleEdit(i)}>Edit</button>
                                       <button onClick={()=>handleDelete(i)}>Delete</button>  
-                                      {editClick?"update":""}  
+                                      {editClick?"update":"Add"}  
                                     </td>                              
                                 </tr>
                             ))
